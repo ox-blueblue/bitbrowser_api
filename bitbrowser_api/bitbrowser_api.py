@@ -271,6 +271,7 @@ if __name__ == '__main__':
                 id="a8924c465c08411790656e66accc48f5")    
     b.open()
     context = b.get_browser_context()
+    print(context)
         
         
 
