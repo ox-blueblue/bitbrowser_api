@@ -7,13 +7,13 @@ project_urls = {
 }
 setuptools.setup(
     name="bitbrowser_api",
-    version="0.3",
-    author="embzheng",
-    author_email="embzheng@qq.com",
+    version="0.4",
+    author="blue",
+    author_email="embzhengblue@gmail.com",
     description="This is a bitbrowser operation tool",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/embzheng/bitbrowser_api",
+    url="https://github.com/ox-blueblue/bitbrowser_api",
     packages=setuptools.find_packages(),
     install_requires=['playwright>=1.42.0','requests','wallet_tool','my_logtool'],    
     classifiers=[
